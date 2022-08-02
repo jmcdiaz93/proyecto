@@ -22,11 +22,7 @@ session_start();
         $row= $result->fetch_assoc();
         $_SESSION['id_usuario'] = $row['id_usuario'];
 
-<<<<<<< HEAD
         header("Location:registro_Usuarios.php");
-=======
-        header("Location:metas.php");
->>>>>>> 5832c5fe5c0636775c13cabf6d8ba134c8457851
         }else{
 
           $error = "El nombre o contrase&ntilde;a son incorrectos";
